@@ -2,11 +2,18 @@
 
 * {
   font-family: syne;
+  margin: 0;
+  padding:0;
+
 }
+
+
+
 body {
   background-image: url("https://cdn.phenomenonstudio.com/wp-content/webp-express/webp-images/themes/phenomenon/img/bg.png.webp");
-  width: 100vw;
+  width: 100%;
 }
+
 
 
 .with-100 {
@@ -288,6 +295,7 @@ textarea::-webkit-scrollbar {
 .homesc {
   justify-content: space-evenly;
   padding: auto;
+  width: 100vw;
 }
 
 .homescgap {
