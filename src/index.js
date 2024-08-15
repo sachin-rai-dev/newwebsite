@@ -9,6 +9,7 @@ import Services from './services';
 import Company from './abut-us';
 import Contact from './contact-us';
 import Project from './project';
+import Loder from './components/loder';
 
 
 
@@ -16,27 +17,33 @@ import Project from './project';
 let rout=createBrowserRouter([
   {
     path:"/",
-    element:<App/>
+    element:<App/>,
+    loader:<Loder/>
   },
   {
     path:"/Services",
-    element:<Services/>
+    element:<Services/>,
+    loader:<Loder/>
   },
   {
     path:"/company",
-    element:<Company/>
+    element:<Company/>,
+    loader:<Loder/>
   },
   {
     path:"/Contactus",
-    element:<Contact/>
+    element:<Contact/>,
+    loader:<Loder/>
   },
   {
     path:"Projects",
-    element:<Project/>
+    element:<Project/>,
+    loader:<Loder/>
   },
   {
     path:"*",
-    element:<div><h1>404</h1></div>
+    element:<div><h1>404</h1></div>,
+    loader:<Loder/>
   }
 ])
 

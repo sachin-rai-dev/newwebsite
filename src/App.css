@@ -37,7 +37,25 @@ body {
 .bg-black{
   background-color: #050200;
 }
+
+
+.loder{
+  position:fixed;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  z-index: 10;
+  background-color: #05020098;
+}
+.lodero{
+  width: 5rem;
+  height: 5rem;
+  border: 5px solid white;
+  margin: auto;
+}
 /* nav css */
+
 
 .s-nav {
   padding: 7px;

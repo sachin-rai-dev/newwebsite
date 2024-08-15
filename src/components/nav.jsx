@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Getform from "./getform";
-import Confetti from "react-confetti";
+
 
 function Nav() {
   useEffect(() => {
@@ -30,20 +30,12 @@ function Nav() {
     navigate("/");
   };
 
-  let [width, setwidth] = useState(window.innerWidth);
-  let [height, setheight] = useState(window.innerHeight);
-  let [confity, setconfity] = useState(false);
-
-  window.addEventListener("resize", function () {
-    setwidth(window.innerWidth);
-    setheight((height = window.innerHeight));
-
-    console.log(`Width: ${width}, Height: ${typeof height}`);
-  });
+  
 
   return (
+  
     <div>
-      {confity ? <Confetti width={width} height={height} />: ""}
+     
       <div className="s-nav">
         <img
           src="webgenn.png"
@@ -109,6 +101,7 @@ function Nav() {
       </div>
       {getstate ? <Getform /> : ""}
     </div>
+
   );
 }
 
