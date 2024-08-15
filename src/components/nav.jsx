@@ -1,23 +1,21 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Getform from "./getform";
+import Confetti from "react-confetti";
 
 function Nav() {
-
   useEffect(() => {
-    let viewportWidth=window.innerWidth;
-    
-    if (viewportWidth>=450) {
-      setmenustate(false)
+    let viewportWidth = window.innerWidth;
+
+    if (viewportWidth >= 450) {
+      setmenustate(false);
     }
   }, []);
-
 
   let [getstate, setgetstate] = useState(false);
   let [menustate, setmenustate] = useState(true);
   let menu = useRef();
 
-  
   useEffect(() => {
     if (!menustate) {
       menu.current.style.transform = `translateX(0%)`;
@@ -26,16 +24,26 @@ function Nav() {
     }
   }, [menustate]);
 
-  
-
   let navigate = useNavigate();
 
   let navigat = () => {
     navigate("/");
   };
 
+  let [width, setwidth] = useState(window.innerWidth);
+  let [height, setheight] = useState(window.innerHeight);
+  let [confity, setconfity] = useState(false);
+
+  window.addEventListener("resize", function () {
+    setwidth(window.innerWidth);
+    setheight((height = window.innerHeight));
+
+    console.log(`Width: ${width}, Height: ${typeof height}`);
+  });
+
   return (
     <div>
+      {confity ? <Confetti width={width} height={height} />: ""}
       <div className="s-nav">
         <img
           src="webgenn.png"
@@ -99,7 +107,6 @@ function Nav() {
           Get in touch
         </span>
       </div>
-
       {getstate ? <Getform /> : ""}
     </div>
   );

@@ -24,7 +24,7 @@ function Footer() {
             <h1>Socials</h1>
             <span><a href="https://www.facebook.com/share/YJYEgnsNvjVYo1Bt/?mibextid=qi2Omg">facebook</a></span>
             <span><a href="https://www.instagram.com/webgennsolutions/">instagram</a></span>
-            <span><a href="">LinkedIn</a></span>
+            <span><a href='https://www.instagram.com/webgennsolutions/'>LinkedIn</a></span>
             <span><a href="https://x.com/WebGennsolution?t=1F05YBNe2WISm9gujsWOBQ&s=09">Twitter</a></span>
           </div>
       
