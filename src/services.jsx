@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./components/nav";
 import Footer from "./components/footer";
 import Form from "./components/form";
-import { Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Development, developmentServisecard, disign, slidedata } from "./lib";
 import Showcard from "./components/showcard";
 import { servisecard } from "./lib";
@@ -12,12 +12,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
 function Services() {
-  
-  let navigater=useNavigate();
+  let navigater = useNavigate();
 
-      let contact=()=>{
-         navigater("/Contactus")
-      }
+  let contact = () => {
+    navigater("/Contactus");
+  };
   return (
     <div>
       <Nav />
@@ -122,33 +121,34 @@ function Services() {
 
       <Button />
 
-
-
       <div className="white-bg servises11">
         <div>
           <img src="sn7.svg" alt="" />
           <h1>End-to-end</h1>
-          <p className="text-center">
+          <p className="text-center p-4">
             We manage every aspect of the project that is entrusted to our team,
             and provide you with detailed reports about what we’re doing — along
             with updates from the project manager.
           </p>
-          <button onClick={contact} className="button">Contact us</button>
+          <button onClick={contact} className="button">
+            Contact us
+          </button>
         </div>
 
         <div className="text-center ">
           <img src="sn8.svg" alt="" />
-          <h1>End-to-end</h1>
-          <p className="text-center">
-            We manage every aspect of the project that is entrusted to our team,
-            and provide you with detailed reports about what we’re doing — along
-            with updates from the project manager.
+          <h1>Dedicated team</h1>
+          <p className="text-center p-4">
+            Searching for specialists on your own is a time-consuming task.
+            That’s why we can provide you with a 100% independent professional
+            who will fit in with your team and help get your project over the
+            line as quickly as possible.
           </p>
-          <button onClick={contact} className="button">Contact us</button>
+          <button onClick={contact} className="button">
+            Contact us
+          </button>
         </div>
       </div>
-
-
 
       <div className="bg-black">
         <h1 className="heding-white p-5 text-center white-bg">
@@ -167,8 +167,8 @@ function Services() {
                   <div className="slid-cardmain-1">
                     <img
                       src={val.src}
-                      height={"100px"}
-                      width={"100px"}
+                      height="70px"
+                      width="80px"
                       alt=""
                     />
                     <div className="m-2">

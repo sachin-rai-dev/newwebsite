@@ -70,37 +70,37 @@ export let Development=[
 
 export let slidedata=[
     {
-        src:"Idea.svg",
+        src:"photo-1.jpg",
         d:"founder",
-        h3:"sachin rai",
+        h3:"Romee Panchal",
         para:"They designed great UX/UI and were easy to work with. webgenn has demonstrated great work. The visual look and feel of the new site architecture conveys a mature and professional aesthetic. Their agile communication has allowed for continuous feedback, which has led to a successful collaboration."    
     },
     {
-        src:"Idea.svg",
+        src:"photo-2.jpg",
         d:"founder",
-        h3:"sachin rai",
+        h3:"Sakshi",
         para:"I am blown away by the quality of work done by webgenn. webgenn successfully delivered a consumer-level iOS app. The team had a smooth workflow and communicated via Slack."
     },
     {
-        src:"Idea.svg",
+        src:"photo-3.jpg",
         d:"cto",
-        h3:"sachin rai",
+        h3:"Tushar Bangera",
         para:"The quality of the designs is fantastic. The company has been measuring other results, but the overall quality has positive feedback. webgenn works at speed and is extremely punctual with timelines. They deliver top-notch outcomes with exceptional designs."    
     },
     {
-        src:"Idea.svg",
+        src:"photo-4.jpg",
         d:"co-founder",
-        h3:"sachin rai",
+        h3:"Shahrzaad Parekh",
         para:"I was impressed at their knowledge and skillset in bringing to life every idea we had. Since the successful launch of the website by the webgenn team, the company has experienced faster load times, allowing their customers to navigate the platform easier and book their services quicker."    
     },
     {
-        src:"Idea.svg",
-        d:"cto",
-        h3:"Alex Shepherd",
+        src:"photo-6.jpg",
+        d:"Founder & CEO",
+        h3:"Porinju",
         para:" All communication was clear and open, and all team members worked very efficiently towards our goals. webgenn impressed the company's internal stakeholders with their designs. The collaboration was made successful by the vendor's communicative, efficient, and meticulous approach."    
     },
     {
-        src:"Idea.svg",
+        src:"photo-5.jpg",
         d:"co-founder",
         h3:"pooja",
         para:"Their execution is splendid and their excellent communication keeps everybody aligned.webgenn continues to impress with their splendid execution of the project and their superb customer support skills. They make sure to stay accessible at all times to establish an efficient process."    

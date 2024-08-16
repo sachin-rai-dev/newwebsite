@@ -38,22 +38,6 @@ body {
   background-color: #050200;
 }
 
-
-.loder{
-  position:fixed;
-  top: 0px;
-  height: 100vh;
-  width: 100vw;
-  left: 0px;
-  z-index: 10;
-  background-color: #05020098;
-}
-.lodero{
-  width: 5rem;
-  height: 5rem;
-  border: 5px solid white;
-  margin: auto;
-}
 /* nav css */
 
 
@@ -407,6 +391,9 @@ textarea::-webkit-scrollbar {
 }
 .slid-cardmain-1 img{
   border-radius: 50%;
+  margin: 5px;
+  height: 70px;
+  width: 70px;
 }
 .slid-cardmain-1 h3{
   display: flex;

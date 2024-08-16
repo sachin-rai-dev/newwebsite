@@ -28,16 +28,6 @@ function Footer() {
             <span><a href="https://x.com/WebGennsolution?t=1F05YBNe2WISm9gujsWOBQ&s=09">Twitter</a></span>
           </div>
       
-
-        
-        <div className='footerinner'>
-            <h2>Company</h2>
-            <span>home</span>
-            <span>Services</span>
-            <span>abut us</span>
-            <span>Projects</span>
-          </div>
-         
       </div>
       <div className='footerinner2'>
         <span>
