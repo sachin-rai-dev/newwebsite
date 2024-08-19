@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Getform from "./getform";
 
-
 function Nav() {
   useEffect(() => {
     let viewportWidth = window.innerWidth;
@@ -31,11 +30,23 @@ function Nav() {
   };
 
   
+  const [top, setTop] = useState("0px");
+  const [left, setLeft] = useState("0px");
 
-  return (
+
+    const handleMouseMove = (e) => {
+      console.log(e.y)
+      setLeft(`${e.x}px`);
+      setTop(`${e.y}px`);
+    };
+
+    document.body.addEventListener("mousemove", handleMouseMove);
+
   
+  return (
     <div>
-     
+      <div className="mouse" style={{left:left,top:top}}></div>
+
       <div className="s-nav">
         <img
           src="webgenn.png"
@@ -101,7 +112,6 @@ function Nav() {
       </div>
       {getstate ? <Getform /> : ""}
     </div>
-
   );
 }
 
