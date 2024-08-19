@@ -14,6 +14,7 @@ import Homesd from './components/home-sd';
 import Nav from './components/nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Planing from './components/planing';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Homesd/>
         <Homesb/>
         <Homesc/>
+        <Planing/>
 
         <div className='bg-black'>
 

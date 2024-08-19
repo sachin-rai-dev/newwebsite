@@ -958,6 +958,41 @@ textarea::-webkit-scrollbar {
   border: none;
 }
 
+   /* planing section code */
+.planing-s{
+   background-color: #f9f9f9;
+   position: relative;
+  padding-bottom: 50px;
+}
+.planing-s .planing-grid img{
+ position: absolute;
+ rotate:90deg;
+ height:20rem ;
+ top: 37%;
+ justify-self: center;
+ height: fit-content;
+ filter:grayscale(100%);
+ 
+}
+.planing-grid{
+  padding: 230px;
+  display: grid;
+  grid-template-columns: 1;
+  row-gap: 10rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.planing-right{
+  justify-self:right;
+}
+.planing-s div div p{
+  width: 164px;
+  font-weight:bold;
+  text-wrap:wrap ;
+}
+.planing-s div div h1{
+  font-weight:bolder ;
+}
 @media (max-width: 450px) {
   nav {
     display: flex;
@@ -1257,6 +1292,22 @@ textarea::-webkit-scrollbar {
     flex-direction: column;
   
   }
+  .planing-s .planing-grid img{
+    
+    height:18rem ;
+    top: 38%;
+   }
+   .planing-grid{
+     padding: 8px;
+     row-gap: 2rem;
+     padding-bottom:130px;
+   }
+   .planing-content{
+    transform: scale(0.8);
+   }
+   .planing-text{
+    transform: translateY(100px);
+   }
 }
 
 @media (max-width: 450px) {
