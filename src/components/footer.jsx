@@ -28,17 +28,17 @@ function Footer() {
 
           <div className='footerinner'>
             <h1>Socials</h1>
-            <span><BiLogoFacebookSquare /> <a href="https://www.facebook.com/share/YJYEgnsNvjVYo1Bt/?mibextid=qi2Omg">facebook</a></span>
-            <span><FaInstagram /> <a href="https://www.instagram.com/webgennsolutions/">instagram</a></span>
-            <span><FaLinkedin /> <a href='https://www.instagram.com/webgennsolutions/'>LinkedIn</a></span>
-            <span><FaSquareXTwitter /> <a href="https://x.com/WebGennsolution?t=1F05YBNe2WISm9gujsWOBQ&s=09">Twitter</a></span>
+            <span><BiLogoFacebookSquare size={26}/> <a href="https://www.facebook.com/share/YJYEgnsNvjVYo1Bt/?mibextid=qi2Omg">facebook</a></span>
+            <span><FaInstagram size={26}/> <a href="https://www.instagram.com/webgennsolutions/">instagram</a></span>
+            <span><FaLinkedin size={26}/> <a href='https://www.instagram.com/webgennsolutions/'>LinkedIn</a></span>
+            <span><FaSquareXTwitter size={26}/> <a href="https://x.com/WebGennsolution?t=1F05YBNe2WISm9gujsWOBQ&s=09">Twitter</a></span>
           </div>
       
       </div>
       <div className='footerinner2'>
         <span>
          <h4>Email us</h4>
-         <TbMail /> <a href='mailto:webgennsolutions@gmail.com' className='text-decoration-none text-white'>webgennsolutions@gmail.com</a>
+         <TbMail size={26}/> <a href='mailto:webgennsolutions@gmail.com' className='text-decoration-none text-white'>webgennsolutions@gmail.com</a>
        </span>
 
        <span>
