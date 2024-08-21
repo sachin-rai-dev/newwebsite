@@ -10,11 +10,12 @@ import { TbMail } from "react-icons/tb";
 
 function Footer() {
   return (
-    <div className='m-3 white-bg'>
+    <div className='m-1 p-3 white-bg'>
       <div className='footer'>
 
         <div className='imgfooter'>
-          <img src="webgenne.jpg" alt="" />
+          {/* <img src="webgenne.jpg" alt="" /> */}
+          <h1 className='heding-white'>webgenn<span className="text-orange">.</span></h1>
         </div>
 
         

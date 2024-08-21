@@ -3,6 +3,7 @@ import { db, storage } from "../firebase-config";
 import { addDoc, collection } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import Confetti from "react-confetti";
+import { IoDocumentAttachOutline } from "react-icons/io5";
 
 function Form(props) {
 
@@ -86,7 +87,7 @@ function Form(props) {
           ></textarea>
 
           <span className="formspan">
-            <label for="file">Attach file</label>
+            <label for="file">Attach file<span> <IoDocumentAttachOutline /></span></label>
             <input
               type="file"
               name="file"

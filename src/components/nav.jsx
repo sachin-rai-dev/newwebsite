@@ -48,13 +48,15 @@ function Nav() {
       <div className="mouse" style={{left:left,top:top}}></div>
 
       <div className="s-nav">
-        <img
+        {/* <img
           src="webgenn.png"
           alt="logo"
           height="50px"
           className="logo"
           onClick={navigat}
-        />
+        /> */}
+
+        <h1 onClick={navigat}>webgenn<span className="text-orange">.</span></h1>
 
         <nav ref={menu}>
           <NavLink

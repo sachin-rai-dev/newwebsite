@@ -18,13 +18,21 @@ body {
   width: 28px;
   border-radius: 50%;
   background-color: #f1791d;
-  position: absolute;
+  position:absolute;
   z-index: 40;
   left: 0px;
   mix-blend-mode: difference;
   top:0px;
 }
 
+.whatsapp-logo{
+
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 30;
+
+}
 
 
 .with-100 {
@@ -1164,6 +1172,7 @@ textarea::-webkit-scrollbar {
   }
   .imgfooter {
     height: 80px;
+    padding: 10px;
   }
   .imgfooter img {
     height: 5rem;

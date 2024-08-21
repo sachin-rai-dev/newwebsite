@@ -15,6 +15,7 @@ import Nav from './components/nav';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Planing from './components/planing';
+import Stikywhatsapp from './components/stikywhatsapp';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Homesb/>
         <Homesc/>
         <Planing/>
+        <Stikywhatsapp/>
 
         <div className='bg-black'>
 
