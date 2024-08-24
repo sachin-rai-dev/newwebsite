@@ -10,6 +10,7 @@ import Servisecarddisign from "./components/servisecarddisign";
 import Button from "./components/button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
+import Stikywhatsapp from "./components/stikywhatsapp";
 
 function Services() {
   let navigater = useNavigate();
@@ -20,6 +21,8 @@ function Services() {
   return (
     <div>
       <Nav />
+      <Stikywhatsapp />
+
       <div className="servises1 white-bg">
         <h1 className="animatiin">
           Get all the <span className="text-orange">benefits of </span>
@@ -165,12 +168,7 @@ function Services() {
               <div className="slid-card bg-black white-bg">
                 <div className="slid-cardmain">
                   <div className="slid-cardmain-1">
-                    <img
-                      src={val.src}
-                      height="70px"
-                      width="80px"
-                      alt=""
-                    />
+                    <img src={val.src} height="70px" width="80px" alt="" />
                     <div className="m-2">
                       <h3>{val.h3}</h3>
                       <p>{val.d}</p>

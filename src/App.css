@@ -1318,7 +1318,11 @@ textarea::-webkit-scrollbar {
     transform: scale(0.8);
    }
    .planing-text{
+     padding-right: 15px;  
     transform: translateY(100px);
+    /* transform: translateX(-5px); */
+    
+
    }
 }
 
