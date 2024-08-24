@@ -39,9 +39,8 @@ function Form(props) {
 
     try {
       await addDoc(collection(db, "form"), data);
-
+      alert("your form is submited")
       setconfity(!confity);
-
     } 
     catch (error) {
       console.log(error);
