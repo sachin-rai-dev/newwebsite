@@ -39,19 +39,22 @@ function Form(props) {
 
     try {
       await addDoc(collection(db, "form"), data);
-      alert("your form is submited")
+     
       setconfity(!confity);
+      alert("your form is submited")
     } 
     catch (error) {
       console.log(error);
     }
   }
 
-  useEffect(()=>{setTimeout(() => {
+  useEffect(
+    ()=>{setTimeout(() => {
   
     setconfity(false);
    
-  }, 8000);},[confity])
+  }, 10000);},[confity]
+)
 
   return (
     <div className="grid-form formbox white-bg">
@@ -102,7 +105,7 @@ function Form(props) {
       </div>
 
        
-      {confity ?<div className="loder"> <Confetti width={width} height={height} /> </div>: ""}
+      {confity ? <div className="loder"><Confetti width={width} height={height}/></div>:<p> </p>}
      
     </div>
   );
