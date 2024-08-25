@@ -26,7 +26,7 @@ function Form(props) {
 
     if (file[0]) {
       const storageRef = ref(storage, `files/${file[0].name}`);
-      await uploadBytes(storageRef, file);
+      await uploadBytes(storageRef, file[0]);
       fileURL = await getDownloadURL(storageRef);
     }
 
