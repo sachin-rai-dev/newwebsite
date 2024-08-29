@@ -4,6 +4,7 @@ import { addDoc, collection } from "firebase/firestore";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import Confetti from "react-confetti";
 import { IoDocumentAttachOutline } from "react-icons/io5";
+import { TbMail } from "react-icons/tb";
 
 function Form(props) {
 
@@ -26,7 +27,7 @@ function Form(props) {
 
     if (file[0]) {
       const storageRef = ref(storage, `files/${file[0].name}`);
-      await uploadBytes(storageRef, file);
+      await uploadBytes(storageRef, file[0]);
       fileURL = await getDownloadURL(storageRef);
     }
 
@@ -58,15 +59,19 @@ function Form(props) {
 
   return (
     <div className="grid-form formbox white-bg">
+      <span className="formmain1h5">
+          
+      </span>
+
       <div className="formmain1">
-        <h5>have an idea?</h5>
+        <h5 >Have an idea?</h5>
         <h1 className="textani">{props.titel}</h1>
-        <h5>
+        <h5 >
           <a
             href="mailto:webgennsolutions@gmail.com"
-            className="text-decoration-none text-white"
+            className="text-decoration-none text-white b-hover"
           >
-            webgennsolutions@gmail.com
+            <TbMail size={26}/> webgennsolutions@gmail.com
           </a>
         </h5>
       </div>

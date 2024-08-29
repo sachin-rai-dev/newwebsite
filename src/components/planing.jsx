@@ -11,22 +11,22 @@ function Planing() {
       <img src="/arrows.webp" alt="" />
 
         <div className=" planing-content">
-          <h1>Plan</h1>
+          <h1><span className="b-hover">Plan</span></h1>
           <p>Q&A Sessions Requirements Gathering</p>
         </div>
 
         <div className="planing-right planing-content">
-          <h1>Construct</h1>
+          <h1><span className="b-hover">Construct</span></h1>
           <p>Developmental Tasks Software Models Regular Demos</p>
         </div>
 
         <div className=" planing-content">
-          <h1>Design</h1>
+          <h1 ><span className="b-hover">Design</span></h1>
           <p>Wireframing UX/UI Prototyping</p>
         </div>
 
         <div className="planing-right planing-content planing-text">
-          <h1>Implement</h1>
+          <h1><span className="b-hover">Implement</span></h1>
         </div>
       
 

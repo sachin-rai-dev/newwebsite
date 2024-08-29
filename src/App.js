@@ -83,7 +83,7 @@ function App() {
 
           <div className='col p-2 text-center '>
           <h1 className='colorh1'>success score</h1>
-          <h1>99%</h1>
+          <h1>100%</h1>
           </div>
         </div>
         <Form titel={"drop as a line!"}/>

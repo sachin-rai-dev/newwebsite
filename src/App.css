@@ -34,6 +34,10 @@ body {
 
 }
 
+.b-hover:hover{
+   border-bottom:2px solid #f2751a;
+}
+
 .loder{
   position: fixed;
   top: 0px;
@@ -593,6 +597,8 @@ textarea::-webkit-scrollbar {
   margin-top: 30px;
   padding: 20px;
   background-color: #050200;
+  overflow: hidden;
+  position: relative;
 }
 
 .formmain1 {
@@ -604,6 +610,19 @@ textarea::-webkit-scrollbar {
 .formmain1 h1 {
   color: #f2751a;
   font-weight: 700;
+}
+.formmain1h5{
+  content: hello;
+  height: 150%;
+  width: 60px;
+  rotate: -30deg;
+  position: absolute;
+  left: 18rem;
+  top: -20%;
+  z-index: 10;
+  background-color: #f2751a;
+  mix-blend-mode: difference;
+
 }
 .formmain1 h5 {
   color: white;
@@ -624,12 +643,18 @@ textarea::-webkit-scrollbar {
   border: none;
   border-bottom: 2px solid white;
 }
+.formmain2 .inputdiv input:hover{
+  border-bottom: 2px solid #f2751a;
+}
 .formmain2 textarea {
   background-color: transparent;
   color: white;
   outline: none;
   border: none;
   border-bottom: 2px solid white;
+}
+.formmain2 textarea:hover{
+  border-bottom: 2px solid #f2751a;
 }
 .formmain2 textarea::placeholder {
   color: white;
@@ -1195,6 +1220,7 @@ textarea::-webkit-scrollbar {
     text-align: left;
     padding: 8px;
   }
+  
 
   .formmain2 {
     justify-content: center;
@@ -1259,7 +1285,9 @@ textarea::-webkit-scrollbar {
     font-size: 1rem;
     font-weight: 600;
   }
-
+  .formmain1h5{
+    display: none;
+  }
   .formbuttonh1 {
     transform: translateY(94%);
     transition: 0.8s;
