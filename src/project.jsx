@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './components/nav'
 import Footer from './components/footer'
 import Stikywhatsapp from './components/stikywhatsapp'
+import Allpro from "./components/ALlpro"
 
 
 function Project() {
@@ -10,7 +11,7 @@ function Project() {
     
     <div>
         <Nav/>
-            
+        <Allpro/>
         <Stikywhatsapp/>
        
       project

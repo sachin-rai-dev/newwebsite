@@ -82,6 +82,7 @@ body {
   position: fixed;
   width: 100vw;
   z-index: 16;
+  top: 0;
   animation-name: fixenav;
   animation-timeline: scroll();
 }
@@ -761,7 +762,7 @@ textarea::-webkit-scrollbar {
 
 .title {
   font-size: 45px;
-  font-family: 700;
+  font-weight: 700;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1032,6 +1033,188 @@ textarea::-webkit-scrollbar {
 }
 .planing-s div div h1{
   font-weight:bolder ;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Syne;
+}
+
+
+
+
+.p-links{
+  text-align: left;
+}
+
+.p-links ul{
+  list-style-type: none;
+  display: inline-block;
+  gap: 35px;
+  margin: 50px 0px 0px 35px;
+ 
+}
+.p-links ul li{
+  display: inline-block;
+  margin-left: 30px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.p-links ul li:hover{
+  font-weight: 300;
+}
+
+.p-h{
+  font-size: 100px;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 80px;
+  margin-left: 30px;
+}
+.p-links ul li a{
+  text-decoration: none;
+ color: black;
+}
+
+.hrr{
+  margin: 0px 20px 0px 20px;
+  background-color: gray;
+}
+.li1{
+  background-color: black;
+  border-radius: 15px;
+  padding: 5px 15px 5px 15px;
+}
+.p-links ul .li1 a{
+  color: white;
+  font-weight: 400;
+}
+
+body{
+  height: auto;
+  width: 100%;
+   text-align: center;
+
+}
+
+.p-Card{
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.p-Card .img{
+    width: 100%;
+    height: auto;
+    transform: scale(.8);
+}
+.p-Card .img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.p-Card .img img:hover{
+   transform: scale(1.03);
+}
+
+.p-Card .p-card-text p{
+  width: 65%;
+  display: inline-block;
+     font-size: 25px;
+     font-weight: 400;
+     text-align: left;
+     margin-top: 15px;
+}
+
+.p-Card .p-card-text .button{
+  width: 35%;
+  display: inline-block;
+  text-align: right;
+  cursor: pointer;
+}
+
+
+
+.p-Card .p-card-text .button button{
+  display: inline-block;
+  font-size: 15px;
+  background-color: rgb(36, 33, 33);
+  color: white;
+  border-radius: 20px;
+  padding: 7px 15px 7px 15px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.main-xyz{
+  display: none;
+  }
+
+.p-Card {
+  text-align: left;
+  display: inline-block;
+}
+.p-Card button{
+  background-color: rgb(224, 224, 243);
+  color: black;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.p-Card p{
+  margin-top: 10px;
+   font-weight: 400;
+   font-size: 14px;
 }
 @media (max-width: 450px) {
   nav {
@@ -1359,7 +1542,183 @@ textarea::-webkit-scrollbar {
     
 
    }
+
+   .p-Card{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+    .p-h{
+      font-size: 60px;
+      font-weight: 400;
+      text-align: left;
+      margin-left: 30px;
+      margin-top: 100px;
+    }
+
+    .p-h span{
+       display: block;
+    }
+
+    .p-links{
+      text-align:center;
+      background-color: #050200;
+      position: relative;
+      z-index: 10;
+      border-radius: 20px;
+    }
+
+    .p-links ul{
+      gap: 10px;
+      text-align:center;
+    }
+    .p-links ul li a{
+      font-size: 24px;
+      color:#f1791d;
+      font-weight: 600;
+      text-align: center;
+    }
+    .p-links ul li{
+      margin-top: 0px;
+      text-align: center;
+    }
+
+   
+
+ 
+.p-Card .p-card-text .button button{
+
+  font-size: 15px;
+  border-radius: 15px;
+  padding: 5px 12px 5px 12px;
+
+  
 }
+
+.p-links-computer{
+  display: none;
+}
+
+.p-Card button{
+  background-color: rgb(224, 224, 243);
+  color: black;
+  border: none;
+  padding: 4px 9px 4px 9px;
+  border-radius: 15px;
+  margin-left: 0px;
+  margin-top: 12px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.p-Card p{
+  margin-top: 10px;
+   font-weight: 200;
+   font-size: 13px;
+}
+
+
+.p-Card .p-card-text p{
+ font-size: 22px;
+ font-weight: 400;
+}
+
+
+.main-xyz{
+width: 100%;
+margin-top: 30px;
+display: block;
+position: relative;
+display: flex;
+align-items: center;
+
+flex-direction: column;
+}
+.main-xyz .menu-des{
+  margin: auto;
+      height: 40px;
+      width: 85%;
+      border: 1px solid black;
+      border-radius: 25px;
+}
+
+.main-menu-div{
+  margin: auto;
+  width: 90%;
+  border-radius: 25px;
+  height: 300px;
+background-color: white;
+  position: absolute;
+  top: 55px;
+ height: 0px;
+  overflow: hidden;
+  transition:all 5s ease-in;
+}
+
+.main-menu-div.active{
+ 
+  height: auto;
+  overflow: visible;
+  border: 1px solid black;
+ 
+}
+
+.main-menu-div .p-links ul li{
+    display: block;
+}
+
+.main-menu-div .p-links ul li a{
+  display: block;
+  font-size: 15px;
+}
+.hrr{
+  display: none;
+}
+.main-menu-div .p-links ul li a:hover{
+      color: orange;
+}
+.p-links ul li .li a{
+  color: orange;
+}
+.image-arrow{
+  rotate: 180deg;
+  transition:all 0.2s ease-in-out;
+}
+.image-arrow img{
+  height: 13px;
+
+}
+.p-links #li a{
+  color: orange;
+}
+
+.image-arrow.active{
+  rotate: 0deg;
+}
+
+.menu-des{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+
+
+.p-links ul{
+  margin-top: 15px;
+  gap: 0px;
+}
+.p-links ul li{
+  margin-left: 0px;
+}
+
+
+
+
+}
+
 
 @media (max-width: 450px) {
 
@@ -1528,4 +1887,18 @@ textarea::-webkit-scrollbar {
   .swiper-button-prev:after{
     font-size: 20px !important;
   }
+  .p-Card{
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+
+.p-h{
+  font-size: 60px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 30px;
+}
 }

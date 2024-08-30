@@ -9,41 +9,59 @@ import Services from './services';
 import Company from './abut-us';
 import Contact from './contact-us';
 import Project from './project';
+import Branding from './components/Branding';
+import Webapp from './components/Webapp';
+import Mobile from './components/Mobile';
+import Website from './components/Website';
 
 
 
 
 
-let rout=createBrowserRouter([
+let rout = createBrowserRouter([
   {
-    path:"/",
-    element:<App/>,
-   
+    path: "/",
+    element: <App />,
+
   },
   {
-    path:"/Services",
-    element:<Services/>,
-    
+    path: "/Services",
+    element: <Services />,
+
   },
   {
-    path:"/company",
-    element:<Company/>,
-    
+    path: "/company",
+    element: <Company />,
+
   },
   {
-    path:"/Contactus",
-    element:<Contact/>,
-  
+    path: "/Contactus",
+    element: <Contact />,
+
   },
   {
-    path:"Projects",
-    element:<Project/>,
-    
+    path: "Projects",
+    element: <Project />,
+
   },
   {
-    path:"*",
-    element:<div><h1>404</h1></div>,
-   
+    path:'/branding',
+    element:<Branding/>
+  },
+  {
+    path:'/mobile',
+    element:<Mobile/>
+  },{
+    path:'/webapp',
+    element:<Webapp/>
+  },{
+    path:'/website',
+    element:<Website/>
+  },
+  {
+    path: "*",
+    element: <div><h1>404</h1></div>,
+
   }
 ])
 
@@ -51,7 +69,7 @@ let rout=createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={rout}/>
+    <RouterProvider router={rout} />
   </React.StrictMode>
 );
 

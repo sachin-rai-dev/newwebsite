@@ -104,7 +104,7 @@ function Nav() {
           <img src={menustate ? "menubar.svg" : "x.svg"} alt="menu" />
         </span>
         <span
-          class="arrow-btn"
+          className="arrow-btn"
           onClick={() => {
             setgetstate(!getstate);
           }}

@@ -178,3 +178,223 @@ export let developmentServisecard=[
     
     
 ]
+
+export let CardData =[
+    {
+        src:"/images/original-1d5cf65bfcac25238e613ebabf43451a.png",
+        p:'Visou is a website for eye treatment',
+        p2:'We have created this website forthe eye clinic',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.53.01_f1b4c8d1.jpg",
+        p:'Boot branding for Tech product.',
+        p2:'it is a tech product branding.',
+        btn1:"",
+        btn2:'Branding'
+    },
+    {
+        src:"./images/original-d91c4d35bf774239bcf993861d0d1bee.jpg",
+        p:'Application - Social media app',
+        p2:'social media app for entertainment',
+        btn1:"",
+        btn2:'Application'
+    },
+    {
+        src:"./images/mb.png",
+        p:'keap promo website for budgiting mobile app',
+        p2:'keap promo Site Univeling the finance Revolution',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"./images/ashion-free-template.jpg",
+        p:'We have created a  e-commerce colthin web app',
+        p2:'Ashion is a e-commerce web app you can purchase any fasion and conmetics product',
+        btn1:"",
+        btn2:'Web app'
+    },
+    {
+        src:"./images/furn-free-template.jpg",
+        p:'web app -It is a service for furniture ',
+        p2:'this is a web app for business purpose',
+        btn1:"",
+        btn2:'Web app'
+    },
+    {
+        src:"./images/1a01551b-ccc9-4842-8d32-04552ae51291.avif",
+         p:'Finance - Cash management application',
+        p2:'Real-time cash management at your fingertips',
+        btn1:"",
+        btn2:'Application'
+        
+    },
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.55.00_102d0149.jpg",
+        p:' branding for jobprofit.it',
+        p2:'branding for some product',
+        btn1:"",
+        btn2:'Branding'
+    }
+]
+
+
+export let websiteData =[
+    {
+        src:"./images/mb.png",
+        p:'We have created a web app for you to find houses.',
+        p2:'This website will help people get their dream house',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"./images/37da8f82288865.5d195fc98313e.jpg",
+        p:'We have created a  Beauty parlar website',
+        p2:'it is a Beauty parlar website for budget friendly people',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"./images/resturant.jpg",
+        p:'Food order website for restaurants',
+        p2:'We have creat a food order website ',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"/images/original-1d5cf65bfcac25238e613ebabf43451a.png",
+        p:'Visou is a website for eye treatment',
+        p2:'We have created this website forthe eye clinic',
+        btn1:"",
+        btn2:'Website'
+    },
+    {
+        src:"./images/landing-page-template-digital-marketing-concept-with-office-people_93487-617.jpg",
+        p:'We have created this website for digital marketing purposes.',
+        p2:'keap promo Site Univeling the finance Revolution',
+        btn1:"",
+        btn2:'Website'
+    },
+    
+    {
+        src:"./images/OIP-5.jpg",
+        p:'This is a website for dentist ',
+        p2:'service for tooth related patients',
+        btn1:"",
+        btn2:'Website'
+    
+    },
+  ,
+    {
+        src:'./images/education-website-template_234432-4 (1).avif',
+         p:'Education - Website Service for student amd teacher',
+        p2:'this is a education website',
+        btn1:"",
+        btn2:'Website'
+        
+    }
+]
+
+
+export let Webapps =[
+    {
+        src:"./images/ashion-free-template.jpg",
+        p:'We have created a  e-commerce colthin web app',
+        p2:'Ashion is a e-commerce web app you can purchase any fasion and conmetics product'
+    },
+    {
+        src:"./images/6701b4accbfbcde7485cbbcb6ed2272c.jpg",
+        p:'It is a e-commerce web app ',
+        p2:'A service for those purchasing tech products'
+    },
+    {
+        src:"./images/original-4cb8f50746b02cb876c80e16ed88f848.png",
+        p:'web app for help you in choosing your carrer ',
+        p2:'this is a self service web app '
+    },
+    {
+        src:"./images/file.png",
+        p:'keap business website for budgiting web app',
+        p2:'this is a web app for business purpose'
+    },
+   
+    {
+        src:"./images/furn-free-template.jpg",
+        p:'web app -It is a service for furniture ',
+        p2:'this is a web app for business purpose'
+    },
+    {
+        src:"./images/6e2082ceba6d7104ba4863518021c98c.png",
+        p:'Web app for natur loving people',
+        p2:'it is a platform for N.G.O'
+    },
+]
+
+
+
+
+
+
+
+export let MobileData =[
+    {
+        src:"./images/original-d91c4d35bf774239bcf993861d0d1bee.jpg",
+        p:'Application - Social media app',
+        p2:'social media app for entertainment'
+    },
+    {
+        src:"./images/61b97b90-c433-44de-a6e5-07faf55572b4.avif",
+        p:'Keap – Family budgeting mobile app',
+        p2:'Simple mobile banking and long-term wealth building.'
+    },
+    {
+        src:"./images/original-57259d31416e67a192acf1b4d248322f.png",
+        p:'Mobile Application - it is a photo editor aap',
+        p2:'Photo editor app for photo editing'
+    },
+    {
+        src:"./images/online-grocery-store-app-template_23-2150208515.jpg",
+        p:'Mobile Application - Service for grocery item',
+        p2:'keap promo Site Univeling the finance Revolution'
+    },
+    {
+        src:"/images/original-c88f75d4602e8f802c565397d467b568.jpg",
+        p:'Mobile Application - Photo editing app',
+        p2:'app for photo editing'
+    },
+    {
+        src:"./images/1a01551b-ccc9-4842-8d32-04552ae51291.avif",
+         p:'Finance - Cash management application',
+        p2:'Real-time cash management at your fingertips'
+        
+    },
+   
+]
+
+
+
+export let Brand =[
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.53.01_f1b4c8d1.jpg",
+        p:'Boot branding for Tech product.',
+        p2:'it is a tech product branding.'
+    },
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.51.56_da227f10.jpg",
+        p:'Urban Burger Branding for food Service  ',
+        p2:'food Service with Personalized Approach'
+    },
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.55.00_102d0149.jpg",
+        p:' branding for jobprofit.it',
+        p2:'branding for some product'
+    },
+    {
+        src:"./images/WhatsApp Image 2024-08-23 at 19.51.37_d0b54d10.jpg",
+        p:'Charge branding for powerbank',
+        p2:'branding for tech products'
+    },
+
+   
+]
