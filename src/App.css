@@ -33,6 +33,12 @@ body {
   z-index: 30;
 
 }
+.center-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .b-hover:hover{
    border-bottom:2px solid #f2751a;
@@ -181,7 +187,7 @@ body {
   flex-direction: column;
   width: 27vw;
   border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #f2751a;
   backdrop-filter: blur(5px);
   padding: 56px;
   color: #f2751a;
@@ -194,7 +200,7 @@ body {
   width: 55vw;
   border-radius: 20px;
   padding: 56px;
-  background-color: rgba(0, 0, 0, 0.421);
+  background-color:#f2751a;
   backdrop-filter: blur(5px);
 }
 

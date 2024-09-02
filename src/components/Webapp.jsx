@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Webapps } from "../lib";
 import { useState } from "react";
 import Nav from "./nav";
+import Footer from "./footer";
 
 
 function WebApp() {
@@ -42,14 +43,16 @@ function WebApp() {
             </ul>
         </div>
         <hr className="hrr" />
-
-        {
+         <div className="center-div">
+          {
           Webapps.map((elem,i)=>{
             return(
              <CardDesignAj elem={elem} key={i}/>
             );
           })
         }
+         </div>
+         <Footer/>
       </div>
     );
   }
@@ -63,7 +66,7 @@ function WebApp() {
       </div>
       <div className="p-card-text">
       <p>{elem.p}</p>
-      <div className="button"><button>See Case</button></div> </div>
+      <div className="button center-div"><button>See Case</button></div> </div>
       <button>FinTech</button>
       <button>Web app</button>
       <p> {elem.p2} </p>

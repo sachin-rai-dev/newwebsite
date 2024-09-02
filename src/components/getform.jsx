@@ -36,14 +36,14 @@ function Getform() {
   return (
     <div className="getmain1">
       <div className="getmain">
-        <div className="leftget">
+        <div className="leftget white-bg">
           <div className="leftgeth">
             Do you need help bringing an idea into fruition?
           </div>
           <div className="leftgetm">webgennsolutions@gmail.com</div>
         </div>
 
-        <div className="rightget">
+        <div className="rightget white-bg">
           <form className="formget" onSubmit={handelsubmit}>
             <input
               type="text"

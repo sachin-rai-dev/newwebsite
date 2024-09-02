@@ -40,12 +40,14 @@ let [mshow,setmshow]=useState(false);
         </div>
         
         <hr className="hrr" />
-
-        {CardData.map((elem,i)=>{
+         <div className="center-div">
+           {CardData.map((elem,i)=>{
           return(
             <CardDesignAj elem={elem} key={i} />
           )
          })}
+         </div>
+       
                
     </div>
   );
@@ -61,7 +63,7 @@ function CardDesignAj({elem}) {
     </div>
     <div className="p-card-text">
     <p>{elem.p}</p>
-    <div className="button"><button>See Case</button></div> </div>
+    <div className="button center-div"><button>See Case</button></div> </div>
     <button>FinTech</button>
     <button>{elem.btn2}</button>
     <p> {elem.p2} </p>

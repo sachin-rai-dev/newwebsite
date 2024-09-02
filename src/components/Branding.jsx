@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Brand } from "../lib";
 import { useState } from "react";
 import Nav from "./nav";
+import Footer from "./footer";
 function Branding() {
   let [mshow,setmshow]=useState(false);
 
@@ -21,7 +22,7 @@ function Branding() {
           <div className={`main-menu-div ${mshow ? 'active' : ''}`}>
           <div className='p-links'>
             <ul>
-                <li><Link to={'/All'}>All Projects</Link> </li>
+                <li><Link to={'/Projects'}>All Projects</Link> </li>
                 <li><Link to={'/Website'}> Website</Link></li>
                 <li ><Link to={'/webapp'}> Web app</Link></li>
                 <li id="li"><Link to={'/Branding'}>Branding</Link> </li>
@@ -33,7 +34,7 @@ function Branding() {
 
         <div className='p-links p-links-computer'>
             <ul>
-                <li ><Link to={'/'}>All Projects</Link> </li>
+                <li ><Link to={'/Projects'}>All Projects</Link> </li>
                 <li ><Link to={'/Website'}> Website</Link></li>
                 <li ><Link to={'/webapp'}> Web app</Link></li>
                 <li className="li1"><Link to={'/Branding'}>Branding</Link> </li>
@@ -41,16 +42,20 @@ function Branding() {
             </ul>
         </div>
         <hr className="hrr" />
-       
-        {
+
+        <div className="center-div">
+          {
           Brand.map((data,i)=>{
            return(
             <BrandData data={data} key={i} />
            )
           })
         }
+        </div>
+       
+        
 
-     
+      <Footer/>
       </div>
     );
   }
@@ -66,7 +71,7 @@ function Branding() {
           </div>
           <div className="p-card-text">
           <p>{data.p}</p>
-          <div className="button"><button>See Case</button></div> </div>
+          <div className="button center-div"><button>See Case</button></div> </div>
           <button>FinTech</button>
           <button>Branding</button>
           <p>{data.p2}</p>

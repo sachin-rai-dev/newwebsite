@@ -13,8 +13,6 @@ function Project() {
         <Nav/>
         <Allpro/>
         <Stikywhatsapp/>
-       
-      project
       <Footer/>
     </div>
   )

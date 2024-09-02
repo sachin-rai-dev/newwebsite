@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { websiteData } from "../lib";
 import { useState } from "react";
 import Nav from "./nav";
+import Footer from "./footer";
 
 
 
@@ -24,7 +25,7 @@ function Website() {
           <div className={`main-menu-div ${mshow ? 'active' : ''}`}>
           <div className='p-links'>
             <ul>
-                <li className="li"><Link to={'/All'}>All Projects</Link> </li>
+                <li className="li"><Link to={'/Projects'}>All Projects</Link> </li>
                 <li id="li"><Link to={'/Website'}> Website</Link></li>
                 <li ><Link to={'/webapp'}> Web app</Link></li>
                 <li ><Link to={'/Branding'}>Branding</Link> </li>
@@ -36,7 +37,7 @@ function Website() {
 
         <div className='p-links p-links-computer'>
             <ul>
-                <li><Link to={'/'}>All Projects</Link> </li>
+                <li><Link to={'/Projects'}>All Projects</Link> </li>
                 <li className="li1"><Link to={'/Website'}> Website</Link></li>
                 <li><Link to={'/webapp'}> Web app</Link></li>
                 <li><Link to={'/Branding'}>Branding</Link> </li>
@@ -45,14 +46,17 @@ function Website() {
         </div>
         <hr className="hrr" />
 
-        {
+         <div className="center-div">
+          {
           websiteData.map((elem,i)=>{
             return(
             <CardDesignWE elem={elem} key={i}/>
             );
           })
         }
-       
+         </div>
+        
+       <Footer/>
       </div>
     );
   }
@@ -67,7 +71,7 @@ function Website() {
       </div>
       <div className="p-card-text">
       <p>{elem.p}</p>
-      <div className="button"><button>See Case</button></div> </div>
+      <div className="button center-div"><button>See Case</button></div> </div>
       <button>FinTech</button>
       <button>{elem.btn2}</button>
       <p> {elem.p2} </p>
