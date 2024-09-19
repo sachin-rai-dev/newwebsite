@@ -13,11 +13,11 @@ function Homesc() {
         </div>
 
         <div className="col container homesc1">
-            <img src='Cover-all-cases-2.png.webp' className='homescimg img-fluid' alt='none'></img>
+            <img src='Cover-all-cases-2.png' className='homescimg img-fluid' alt='none'></img>
             <div className='p-5 homescgap'>
-              <h1>E-manager – mobile app for e-sim management</h1>
-              <div className='gaphomesc'><span> Smart solution </span><span>Mobile app</span></div>
-              <h5>E-manager is a mobile application for managing and controlling e-Sim cards for travelers</h5>
+              <h1>SEBASTIAN Website</h1>
+              <div className='gaphomesc'><span> brand website </span><span>website</span></div>
+              <h5>SEBASTIAN - UI/UX Website Design for Hair Products</h5>
             </div>
          </div>
 
@@ -31,11 +31,11 @@ function Homesc() {
         </div>
 
         <div className="col container homesc1">
-           <img src='Cover-mobile-3.png.webp' className='homescimg img-fluid' alt='none'></img>
+           <img src='Cover-mobile-3.png' className='homescimg img-fluid' alt='none'></img>
            <div className='p-5 homescgap'>
-              <h1>CoinTax – crypto tax reporting tool</h1>
-              <div className='gaphomesc'><span> Saas </span> <span> Web app</span></div>
-               <h5>Unleash the crypto tax revolution</h5>
+              <h1>AeroWind website</h1>
+              <div className='gaphomesc'><span> AeroWind </span> <span> Website</span></div>
+               <h5> AeroWind energy industri website</h5>
            </div>
         </div>
 
