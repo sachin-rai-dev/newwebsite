@@ -17,11 +17,17 @@ function Getform() {
       fileURL = await getDownloadURL(storageRef);
     }
 
+    let date=new Date().getDate();
+    let year=new Date().getFullYear();
+    let month=new Date().getMonth();
+
+
     let data = {
       name: e.target.name.value,
       email: e.target.email.value,
       text: e.target.text.value,
       file: fileURL,
+      date:`${date}/${month}/${year}`
     };
 
     try {

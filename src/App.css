@@ -1222,6 +1222,37 @@ body{
    font-weight: 400;
    font-size: 14px;
 }
+
+/* dashbord css code */
+
+tabel{
+  background-color: white;
+  width: 100vw;
+}
+.dashbord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+table tr th{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgb(140, 140, 249);
+  padding:15px 8px 15px 8px;
+  margin: auto;
+
+}
+table tr td{
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid rgb(140, 140, 249);
+  padding:15px 8px 15px 8px;
+  
+
+}
 @media (max-width: 450px) {
   nav {
     display: flex;

@@ -13,6 +13,7 @@ import Branding from './components/Branding';
 import Webapp from './components/Webapp';
 import Mobile from './components/Mobile';
 import Website from './components/Website';
+import Dashbord from './dashbord';
 
 
 
@@ -57,11 +58,13 @@ let rout = createBrowserRouter([
   },{
     path:'/website',
     element:<Website/>
+  },{
+    path:'/dash-bord',
+    element:<Dashbord/>
   },
   {
     path: "*",
     element: <div><h1>404</h1></div>,
-
   }
 ])
 
