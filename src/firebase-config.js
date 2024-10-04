@@ -17,3 +17,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
  export let db = getFirestore(app)
  export const storage = getStorage(app);
+ const anylytics=getAnalytics(app)
